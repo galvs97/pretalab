@@ -95,6 +95,7 @@ Professora:
 - [instagram](www.instagram.com/cabsquanto)
 
 Monitoria:
-
+- [linkedin](https://www.linkedin.com/in/anabsantoss)
+- [instagram](www.instagram.com/anabiax01)
 
 <br>
