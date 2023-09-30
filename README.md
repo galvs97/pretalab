@@ -16,7 +16,7 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 ## `Planejamento`
 
-💻 1 ✓ 03/10 | HTML5 - Introdução:
+💻 1 ✓ **03/10** | HTML5 - Introdução:
 
     - Estrutura;
     - Tags;
@@ -24,7 +24,7 @@ Para o módulo I usaremos as seguintes tecnologias:
     - Textos:
         -  Níveis de títulos, parágrafos, quebra de linha, formatação de texto;
 
-💻 2 ✓ 05/10 | HTML5 - Aprofundamento:
+💻 2 ✓ **05/10** | HTML5 - Aprofundamento:
 
     - Acessibilidade;
     - Ícones;
@@ -37,9 +37,9 @@ Para o módulo I usaremos as seguintes tecnologias:
     - Forms;
     - Botões 
 
-👩🏾‍💻 3 ✓ 07/10 | Aula prática / Monitoria
+👩🏾‍💻 3 ✓ **07/10** | Aula prática / Monitoria
 
-💻 4 ✓ 10/10 | CSS3 - Introdução:
+💻 4 ✓ **10/10** | CSS3 - Introdução:
 
     - Aplicação de estilo inline, interno e externo;
     - Sintaxe básica;
@@ -50,7 +50,7 @@ Para o módulo I usaremos as seguintes tecnologias:
     - Altura e largura;
     - Bordas a elementos;
 
-💻 5 ✓ 12/10 | CSS3 - Aprofundamento:
+💻 5 ✓ **12/10** | CSS3 - Aprofundamento:
 
     - Medidas absolutas;
     - Espaçamento;
@@ -60,10 +60,10 @@ Para o módulo I usaremos as seguintes tecnologias:
     - Flexfroggy: propriedades (display, float, clear, clear fix);
     - Direção flexível e posicionamento.
 
-👩🏾‍💻 6 ✓ 14/10 | Aula prática / Monitoria
-💻 7 ✓ 17/10 | Projeto final: HTML
-💻 8 ✓ 19/10 | Projeto final: CSS
-👩🏾‍💻 9 ✓ 21/10 | Projeto final
+👩🏾‍💻 6 ✓ **14/10** | Aula prática / Monitoria<br>
+💻 7 ✓ **17/10** | Projeto final: HTML<br>
+💻 8 ✓ **19/10** | Projeto final: CSS<br>
+👩🏾‍💻 9 ✓ **21/10** | Projeto final<br>
 
 <br>
 
