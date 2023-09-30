@@ -79,14 +79,14 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 - [link da apresentação de HTML](https://docs.google.com/presentation/d/1WPeYBMtghhJF4ZfanXuX7Gn8szOMeJDeo1rEksgJYPw/edit?usp=sharing)
 
-- [link da apresentação de CSS](https://docs.google.com/presentation/d/1rE4FdBzg2VdG_iheqd4CAJ4EybUWlSTedr4eoOk2Hwc/edit?usp=sharing)
+- [link da apresentação de CSS](https://docs.google.com/presentation/d/1CMf0gUnvqimAcUefvwnOJ0w6ETkumo7TP72V77PENOg/edit?usp=sharing)
 
 --- 
 <br>
 _Vai incrível caminharmos juntas! Qualquer dúvida ou sugestão, fala comigo!!!_
 <br>
 
-### Vamos nos conectar!
+### Va/mos nos conectar!
 
 - [github-pretalab](https://github.com/asilvaolabi)
 
