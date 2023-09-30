@@ -27,12 +27,12 @@ Para o módulo I usaremos as seguintes tecnologias:
 💻 2 ✓ **05/10** | HTML5 - Aprofundamento:
 
     - Acessibilidade;
+    - Elementos semânticos: section, nav, div e footer;
     - Ícones;
     - Links;
     - Listas;
     - Tabelas;
     - Imagens;
-    - Section, nav, div e footer;
     - Entidades;
     - Forms;
     - Botões 
