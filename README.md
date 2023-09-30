@@ -1,8 +1,6 @@
 # Ciclo Formativo PretaLab | Módulo II - HTML e CSS 🚀 
 
-![image](https://media.giphy.com/media/968taxwNaAXqZASdcn/giphy.gif)
-
-## `Sobre o módulo` 
+### `Sobre o módulo` 
 Nossas aulas serão divididas por pastas, ao final de cada aula, eu atualizarei o meu reposítório, para vocês conseguirem acompanhar(mas não é só para copiar hein, é só para se basear).
 
 Ao final de cada aula, atualize seu repositório.
