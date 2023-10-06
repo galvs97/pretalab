@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"> 
+
+    <head>
+        <title>Meu segundo site</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Elementos HTML</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button type="button">
+                            <i class="fa fa-home"></i>
+                            Ínicio
+                        </button>
+                    </li>
+                    <li>
+                        <a href="#listas">Listas</a>
+                    </li>
+                    <li>
+                        <a href="#tabela">Tabela</a>
+                    </li>
+                    <li>
+                        <a href="#imagem">Imagem</a>
+                    </li>
+                    <li>
+                        <a href="www.google.com">google</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="listas">
+
+            <article>
+                <h2>Lista ordenada</h2>
+                <ol>
+                    <li>Fone de ouvido</li>
+                    <li>Óculos</li>
+                    <li>Banana</li>
+                    <li>Garrafa de agua</li>
+                </ol>
+            </article>
+
+            <article> 
+                <h2>Lista não ordenada</h2>
+                <ul>
+                    <li>Fone de ouvido</li>
+                    <li>Óculos</li>
+                    <li>Banana</li>
+                    <li>Garrafa de agua</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <section id="tabela">
+            <h2>Tabela</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ordem</th>
+                        <th>Conteúdo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Acessibilidade</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Listas</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Tabelas</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section id="imagem"> 
+            <img src="https://media.gettyimages.com/id/876439966/pt/foto/viola-davis-poses-in-the-press-room-during-the-2017-american-music-awards-at-microsoft-theater.jpg?s=612x612&w=gi&k=20&c=EG5rDBBcYqDcaiaDLImmv-uYnhHtqGJj-nqwd08B1q0=" />
+        </section>
+
+        <section id="form"> 
+            <br/>
+            <br/>
+            <br/>
+            <form>
+                <label>Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome"/>
+                <br/>
+
+                <label>Email:</label>
+                <input type="email" id="emailPessoal" placeholder="Digite o seu email"/>
+                <br/>
+
+                <label>Mensagem: </label>
+                <textarea id="mensagem"> </textarea>
+                <br/>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+    </body>
+</html>
