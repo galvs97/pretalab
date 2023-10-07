@@ -81,12 +81,20 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 - [link da apresentação de CSS](https://docs.google.com/presentation/d/1CMf0gUnvqimAcUefvwnOJ0w6ETkumo7TP72V77PENOg/edit?usp=sharing)
 
---- 
+---
+
+## `Úteis`
+
+- [link design aula prática](https://www.figma.com/file/HPDdnifsLW7LYgTR0zMR7B/CFPL--aula-pratica?type=design&node-id=1%3A1044&mode=design&t=rPZn6vu5Cj428A8t-1)
+
+- [imagens da página](https://wetransfer.com/downloads/a50c815b336e6fa3bac7edafb8353c0620231007030010/aa56025c2b4a041674acfa223b6b5aff20231007030031/b88c9c?trk=TRN_TDL_01&utm_campaign=TRN_TDL_01&utm_medium=email&utm_source=sendgrid)
+
+--
 <br>
 _Vai incrível caminharmos juntas! Qualquer dúvida ou sugestão, fala comigo!!!_
 <br>
 
-### Va/mos nos conectar!
+### Vamos nos conectar!
 
 - [github-pretalab](https://github.com/asilvaolabi)
 
