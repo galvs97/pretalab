@@ -79,7 +79,7 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 - [link da apresentação de HTML](https://docs.google.com/presentation/d/1WPeYBMtghhJF4ZfanXuX7Gn8szOMeJDeo1rEksgJYPw/edit?usp=sharing)
 
-- [link da apresentação de CSS](https://docs.google.com/presentation/d/1CMf0gUnvqimAcUefvwnOJ0w6ETkumo7TP72V77PENOg/edit?usp=sharing)
+- [link da apresentação de CSS](https://docs.google.com/presentation/d/1m9uZv7qmcEnHBZsgU-jVuyD2WIlvL-HTdBMvhAB6NKU/edit?usp=sharing)
 
 ---
 

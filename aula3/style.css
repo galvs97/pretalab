@@ -1,0 +1,9 @@
+body { 
+    background-color: gray !important; /* cor de fundo | !important: para definir prioridade na classe .nomeClasse*/
+    color: #002b0c; /* cor do texto */
+    border: 5px solid rgba(62, 0, 62, .3);
+}
+
+.bgPink {
+    background-color: pink;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo CSS interno</title>
+    
+    <!-- Aplicando estilo interno-->
+    <style>         
+        h1 {
+            color: blue;
+        }
+
+        header {
+            background-color: yellow;
+        }
+
+        #paragrafo {
+            border: 5px solid greenyellow; /* espessura tipo cor */
+        }
+
+        .bgRoxoEscuro {
+            background-color: #420042;
+            color: white;
+        }
+
+        .bgRoxoClaro {
+            background-color: #a000a0;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Este é um título principal</h1>
+        <a href="index.html" target="_blank">Ir para meu css principal</a> <!-- Aplicando estilo inline-->
+    </header>
+
+    <h1 style="color: red;">qualquer coisa</h1> 
+
+    <section id="paragrafo">
+        <article>
+            <h2>Parágrafos com CSS Interno</h2>
+            <p class="bgRoxoEscuro">
+                Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! 
+                <span class="bgRoxoClaro">o quibeee!
+                rema, rema, ordinária!.</span> 
+            </p>
+            <p class="bgRoxoClaro">
+                Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+                rema, rema, ordinária!.
+            </p>
+            <p class="bgRoxoEscuro">
+                <small>
+                    Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                    Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+                    rema, rema, ordinária!.
+                </small>
+            </p>
+        </article>
+        <article>
+            <h2>Parágrafos com CSS inline</h2>
+            <p>
+                <span style="background-color: lightpink;">Tu du du pááá! Eu gostchu Muitchu, heinn!</span> danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+                rema, rema, ordinária!.
+            </p>
+            <p style="text-align: justify;">
+                Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+                rema, rema, ordinária!.
+            </p>
+        </article>
+
+
+    </section>
+</body>
+</html>
