@@ -4,6 +4,13 @@
 <head>
     <title>Loja Dandara </title>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap">
 </head>
 
 <body>
@@ -16,11 +23,11 @@
         </div>
 
         <nav>
-            <ul>
+            <ul id="menuNavegacao">
                 <li>
-                    <a href="#">
-                        <!-- Inicio -->
-                        Ínicio
+                    <a id="btnInicio" href="#">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <strong>Ínicio</strong>
                     </a>
                 </li>
                 <li>
@@ -28,8 +35,16 @@
                         Nossos clientes
                     </a>
                 </li>
-                <li></li>
-                <li></li>
+                <li>
+                    <a href="#pedidos">
+                        Pedidos
+                    </a>
+                </li>
+                <li>
+                    <a href="#faleConosco">
+                        Fale conosco
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -37,44 +52,92 @@
     <main> <!-- tag semantica para definir conteúdo principal -->
         <section>
             <h1>Nova coleção 2023</h1>
-            <h2>Ganhe <b>10%</b> off na 1° compra</h2>
+            <h2 class="subtitulo">Ganhe <strong>10%</strong> off na 1° compra</h2>
 
-            <ol>
+            <ol class="listaImagens">
                 <li>
-                    <figure> <!-- tag semantica para criar caixa de imagem -->
-                        <img src="./img/1.jpg" alt="Mulher negra careca de top branco sorrindo">
+                    <figure>
+                        <img src="./img/1.jpg" alt="Imagem 1"> <!-- https://vestindoautoestima.com.br/wp-content/uploads/2020/11/dress-coracao.jpg -->
                     </figure>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <figure>
+                        <img src="./img/2.jpg" alt="Imagem 2"> <!-- https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2021/11/19/21940530izamodatapetevermelhoconsiciencianegra-e1637000801763.jpg-->
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/3.jpg" alt="Imagem 3"> <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD0Llikj16rMUz7yD6PPSa7HfQ9pogr5mjjpsqFI9egzGzdnPdKOmJPlJZtWNd7bOc7J8&usqp=CAU -->
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/4.jpg" alt="Imagem 4"> <!-- https://s2-oglobo.glbimg.com/QqwgFwEk5wyJB_7FnEoOAMLtJqE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/C/W/w5yVVhRTinGnFAPknIkQ/101708778-el-exclusivo-a-estilista-adriana-meira.jpg -->
+                    </figure>
+                </li>
             </ol>
 
-            <a href="https://www.cea.com.br">Clique aqui para conferir</a>
+            <a href="https://www.cea.com.br" target="_blank">
+                <p class="text-center">Clique aqui para conferir</p>
+            </a>
         </section>
 
         <section id="clientes">
+            <h3>
+                Nossos clientes
+            </h3>
 
-            <article>
-                <h4> Maria Pereira </h4>
-                <h5>Avaliado em: 06/10/2023</h5>
+            <div id="artigosClientes">
+                <article>
+                    <h4> Maria Pereira </h4>
+                    <h5>Avaliado em: 06/10/2023</h5>
+    
+                    <figure>
+                        <img class="imgClientes" src="./img/4.jpg" alt="Imagem 4">
+                    </figure>
+    
+                    <p>
+                        jdslkjflajdlsajdlkasjdlksajdlsjdlkasjdlkasjd
+                    </p>
+                </article>
 
-                <figure>
-                    <img src="" alt="">
-                </figure>
+                <article>
+                    <h4> Maria Pereira </h4>
+                    <h5>Avaliado em: 06/10/2023</h5>
+    
+                    <figure>
+                        <img class="imgClientes" src="./img/4.jpg" alt="Imagem 4">
+                    </figure>
+    
+                    <p>
+                        jdslkjflajdlsajdlkasjdlksajdlsjdlkasjdlkasjd
+                    </p>
+                </article>
 
-                <p>
-                    
-                </p>
-            </article>
+                <article>
+                    <h4> Maria Pereira </h4>
+                    <h5>Avaliado em: 06/10/2023</h5>
+    
+                    <figure>
+                        <img class="imgClientes" src="./img/4.jpg" alt="Imagem 4">
+                    </figure>
+    
+                    <p>
+                        jdslkjflajdlsajdlkasjdlksajdlsjdlkasjdlkasjd
+                    </p>
+                </article>
+            </div>
+
         </section>
 
-        <!-- Para: 14/10
+        <!-- Para: 19/10
             Completar as sessões com seus respectivos conteúdos (meus pedis e fale conosco); 
-            -- Completar os demais itens que estão faltando;
             -- Criar tabela em HTML; 
-            -- Criar formulario; 
             -- Incluir texto do footer (rodapé); 
+
+            - Formatar via CSS: 
+                - Footer; 
+                - Formulario
         -->
 
     </main>
