@@ -89,6 +89,8 @@ Para o módulo I usaremos as seguintes tecnologias:
 
 - [imagens da página](https://wetransfer.com/downloads/a50c815b336e6fa3bac7edafb8353c0620231007030010/aa56025c2b4a041674acfa223b6b5aff20231007030031/b88c9c?trk=TRN_TDL_01&utm_campaign=TRN_TDL_01&utm_medium=email&utm_source=sendgrid)
 
+- [planilha para entrega do exercicio](https://docs.google.com/spreadsheets/d/1-KURmiX6rzypiaUIKi30MN5w_K9y4rnNfJ3NIbskels/edit)
+
 ---
 <br>
 _Vai incrível caminharmos juntas! Qualquer dúvida ou sugestão, fala comigo!!!_
