@@ -1,0 +1,23 @@
+1. JSONPlaceholder: Esta é uma API fake para testar e prototipar. Ela oferece endpoints para usuários, postagens, comentários e muito mais. Ótima para projetos relacionados a redes sociais ou blogs.
+
+   Site: https://jsonplaceholder.typicode.com/
+
+2. Random User Generator: Essa API permite gerar dados de usuários aleatórios, incluindo nomes, fotos, endereços de e-mail e muito mais. É útil para criar uma lista de usuários fictícios.
+
+   Site: https://randomuser.me/
+
+3. Lorem Ipsum Generator: Se você precisa de texto de preenchimento para simular conteúdo em um site ou aplicativo, o Lorem Ipsum é uma opção clássica. Muitos geradores online podem fornecer parágrafos de texto falso.
+
+   Site: https://www.lipsum.com/
+
+4. OpenWeatherMap: Se você deseja incorporar dados meteorológicos em seu aplicativo ou site, o OpenWeatherMap oferece uma API que permite acessar informações meteorológicas de locais fictícios.
+
+   Site: https://openweathermap.org/api
+
+5. The Cat API: Se você deseja exibir imagens de gatos em seu aplicativo, esta API fornece acesso a uma variedade de fotos de gatos fofos.
+
+   Site: https://thecatapi.com/
+
+6. CoinGecko API: Se você está interessado em criar aplicativos relacionados a criptomoedas, o CoinGecko oferece uma API com informações detalhadas sobre várias criptomoedas.
+
+   Site: https://coingecko.com/
