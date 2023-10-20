@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #D7E2FF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #7C71FF;
+    padding: 10px 30px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #ffffff;
+}
+
+#menuNavegação {
+    display: flex;
+    padding: 10px 20px;
+    list-style: none;
+    gap: 20px;   
+
+    align-items: center;
+    
+}
+
+#menuNavegação li a {
+    padding: 8px 14px;
+    border-radius: 25px;
+    text-align: center;
+
+    background-color: #d9d9d9;
+    color: #200065;
+    font-size: 0.8em;
+
+
+    transition: 0.3s;
+
+    text-decoration: none;
+}
+
+#btInicio {
+    background-color: #200065 !important;
+    color: #ffffff !important;
+}
+
+section {
+    padding: 20px 40px;
+}
+
+section h1, h2, h3, h4 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    color: #200065;
+}
+
+.subtitulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+}
+
+.listaImagens {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 20px 0;
+  
+}
+
+.text-center {
+    text-align: center;
+    gap: 0 10px;
+}
+
+#clientes {
+    background-color: #AEBFEB;
+    padding: 20px;
+
+}
+
+#artigosClientes {
+    display: flex;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+#artigosClientes article {
+    background-color: #d4e0ff;
+    padding: 40px;
+    text-align: left;
+}
+
+#artigosClientes article h4 {
+    color: #1e1e1e;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.imgClientes {
+    width: 60px;
+    margin: 10px 0;
+    border: 1px solid #1e1e1e;
+}
+
+table {
+        max-width: 2000px;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto;
+}
+thead {
+    background-color: #7C71FF;
+    color: #1e1e1e;
+}
+
+tbody {
+    background-color: white;
+    color: #1e1e1e;
+}
+
+table, th, td {
+        border: 1px solid black;
+}
+
+th, td {
+        padding: 10px;
+        text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#FaleConosco {
+       
+     background-color: #AEBFEB;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #202626;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    /* position:fixed; */
+    bottom: 0;
+    width: 100%;
+}
