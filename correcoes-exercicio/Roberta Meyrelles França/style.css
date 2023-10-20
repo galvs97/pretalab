@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: 'Abril Fatface';
+  color: #200065;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* header */
+header {
+  background-color: #7C71FF;
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  color: #ffff
+}
+
+header p {
+  font-family: 'Inter';
+  line-height: normal;
+  color: #ffff;
+  font-size: 14px;
+}
+
+header p strong {
+  font-size: 22px;
+}
+
+#menuNavegacao {
+  display: flex;
+  padding: 10px 20px;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+#menuNavegacao li a {
+  padding: 8px 14px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #d9d9d9;
+  color: #200065;
+  font-size: 0.8em;
+  transition: 0.3s;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+#btnInicio {
+  background-color: #200065 !important;
+  color: #ffff !important;
+}
+
+/* section */
+section {
+  background-color: #D7E2FF;
+  padding: 20px 40px;
+}
+
+section h1,
+h2,
+h3,
+h4 {
+  font-family: 'Abril Fatface', serif;
+  text-align: center;
+  color: #200065;
+}
+
+section h1 {
+  font-size: 30px;
+}
+
+.subtitulo {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.subtitulo strong {
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.listaImagens {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 20px 0;
+  gap: 35px;
+
+}
+
+.text-center {
+  text-align: center;
+  font-family: 'Inter';
+}
+
+/* section - clientes */
+#clientes {
+  background-color: #AEBFEB;
+  padding: 20px;
+}
+
+#clientes h3 {
+  padding-bottom: 20px;
+}
+
+#artigosClientes {
+  display: flex;
+  gap: 30px;
+}
+
+#artigosClientes article {
+  background-color: #d4e0ff;
+  padding: 20px;
+  text-align: left;
+}
+
+#artigosClientes article h4 {
+  color: #1e1e1e;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+#artigosClientes article h5 {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: italic;
+}
+
+#artigosClientes article p {
+  font-family: 'Inter';
+  font-size: 20px;
+}
+
+.imgClientes {
+  width: 150px;
+  height: 150px;
+  margin: 10px 0;
+  border: 2px solid #1e1e1e;
+  object-fit: cover;
+}
+
+/* meus pedidos */
+#pedidos {
+  font-family: 'Inter';
+  font-size: 18px;
+  height: 300px;
+}
+
+#pedidos h3 {
+  padding-bottom: 20px;
+}
+
+#pedidos table {
+  border-collapse: separate;
+  /* remove o espaçamento entre as linhas*/
+  margin: 0 auto;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 70%;
+}
+
+#pedidos td,
+th {
+  border: 1px solid #1e1e1e;
+  padding: 10px;
+}
+
+#pedidos thead {
+  background: #7C71FF;
+  width: 250px;
+  height: 50px;
+}
+
+#pedidos tbody {
+  background: #FFF;
+}
+
+
+#pedidos tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+#pedidos tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+#pedidos tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+
+/* fale conosco */
+#faleConosco {
+  background-color: #AEBFEB;
+}
+
+#faleConosco form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 15px;
+  align-items: flex-start;
+}
+
+#faleConosco label {
+  font-family: 'Inter';
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#faleConosco button {
+  border-radius: 10px;
+  border: 1px solid #313131;
+  background: #313131;
+  color: #fff;
+  width: 270px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  /* Centraliza o botão horizontalmente */
+}
+
+#nome,
+#emailPessoal {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #AAAAAD;
+  background: #FFF;
+  padding: 10px 15px;
+  font-family: 'Inter';
+  margin-bottom: 5px;
+}
+
+#mensagem {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #AAAAAD;
+  background: #FFF;
+  padding: 10px 15px;
+  font-family: 'Inter';
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #3F3F3F;
+  height: 108px;
+}
+
+footer p {
+  font-family: 'Inter';
+  text-align: left;
+  padding: 15px;
+  color: #ffff;
+  font-size: 16px;
+  padding: 42px;
+}

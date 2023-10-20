@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lojas Carol</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2? family= Inter & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <p>
+                <strong>CAROLINE PIRES</strong><br/>
+                <small>Atualizado em 14/10/202</small>
+            </p>
+        </div>
+        <nav>
+            <ul class="menuNavegacao">
+                <li>
+                   <button class="btInicio">
+                     <i class="fa fa-home" aria-hidden="true"></i>
+                     <strong>ÍNICIO</strong>
+                    </button>
+                </li>
+                <li>
+                <button>
+                    <a href="#clientes">
+                        Nossos Clientes
+                    </a>
+                </button>
+                </li>
+                <li>
+                    <button>
+                        <a href="#pedidos">
+                            Pedidos
+                        </a>
+                    </button>
+                </li> 
+                <li>
+                    <button>                    
+                        <a href="#faleConosco">
+                        Fale Conosco
+                    </a>
+                </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main> 
+        <section class="pagina_inicio">
+            <h1>Nova coleção 2023</h1>
+            <p> Ganhe <b>10%</b> off na 1ª compra </p>
+
+            <ol class="listaImagens">
+                <li>
+                    <figure>
+                        <img src="./img/1.jpg" alt="Mulher negra, cabelo liso,vestida com blaser e lenço na cabeça predominatimente laranja">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/2.jpg" alt="Mulher negra, careca, de top branco e sorrindo">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/3.jpg" alt="Mulher negra, cabelo longo e cacheado, com calça, blusa e blaser de cetin">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/4.jpg" alt="Mulher negra com cabelo longo e cacheado com vestido estampado">
+                    </figure>
+                </li>
+            </ol>
+
+            <a href="https://www.angelabritobrand.com/roupas"><br/>
+                Clique aqui para conferir
+            </a>
+
+        </section>
+
+        <section id="clientes">
+            <h2>Nossos cliente</h2>
+            <div class="artigosClientes">
+                <article>
+                    <h4>Maria Mirtes</h4>
+                    <small><i>Avaliado em: 07/10/2023 às 22:24</small></i>
+                    
+                    <figure>
+                        <img class="imagemClientes" src="./img/6.jpg" >
+                    </figure>
+    
+                    <p>Texto texto texto texto texto<br/> 
+                        Texto texto texto texto texto<br/>
+                        Texto texto texto texto texto<br/>
+                        Texto texto texto texto texto"</p>
+                </article>
+                <article>
+                    <h4>Maria Aldeíde</h4>
+                    <small><i>Avaliado em: 07/10/2023 às 22:38</small></i>
+                    
+                    <figure>
+                        <img class="imagemClientes" src="./img/6.jpg" >
+                    </figure>
+    
+                    <p>"Texto texto texto texto texto<br/> 
+                        Texto texto texto texto texto<br/>
+                        Texto texto texto texto texto<br/>
+                        Texto texto texto texto texto"</p> 
+                </article>
+                <article>
+                    <h4>Maria Cristiane</h4>
+                    <small><i>Avaliado em: 07/10/2023 às 12:24</small></i>
+                    
+                    <figure>
+                        <img class="imagemClientes" src="./img/6.jpg"  >
+                    </figure>
+    
+                    <p>Texto texto texto texto texto<br/> 
+                        Texto texto texto texto texto<br/>
+                        Texto texto texto texto texto<br/>
+                        Texto texto texto texto texto"</p>   
+                </article>
+            </div>
+            
+        </section> 
+
+        <section id="pedidos">
+            <h3>Meus pedidos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Valor R$</th>
+                        <th>Quantidade</th>
+                        <th>Data da compra</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Blusa</td>
+                        <td>200.00</td>
+                        <td>1</td>
+                        <td>00/00/0000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Vestido</td>
+                        <td>50.00</td>
+                        <td>1</td>
+                        <td>00/00/0000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sapato preto</td>
+                        <td>100.00</td>
+                        <td>1</td>
+                        <td>00/00/0000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Anel</td>
+                        <td>10.00</td>
+                        <td>1</td>
+                        <td>00/00/0000</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+        <section id="faleConosco">
+            <h3>Fale conosco</h3>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome"> <br>
+                <label for="email">Email:</label>
+                <input type="text" email="email" placeholder="Digite seu email"> <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea 
+                type="text" mensagem="mensagem" placeholder="Mensagem"></textarea> <br>
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p> &copy; Copyright | 2023 | Todos os direitos autorais reservados</p>
+    </footer>
+</body>
+
+</html>

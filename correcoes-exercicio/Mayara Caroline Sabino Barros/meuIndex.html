@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Index</title>
+    <link rel="stylesheet" type="text/css" href="meustyle.css">
+
+    <!-- link pro incone do inicio-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!--link das fontes usadas na minha section inicial, pega no Google fonts e copia o ultimo link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap">
+</head>
+
+<body>
+<!--o <header> é o cabeçalho da minha pag, coloca o primeiro elemento da pag-->
+    <header>
+<!-- o <div> é quando quero criar uma caixa e ñ é semantica, é mais pra estilo ela pode ser qualquer coisa, usando aqui pois é pra uma informação relevante, mas n tem o uso semantico -->
+        <div>
+            <p>
+                <strong>MAYARA BARROS</strong><br>
+                <small>Último login em: 07/10/23 11:10</small>
+            </p>
+        </div>
+<!-- <nav> é o espaço de navegação do site, onde vai ficar o lugar para clicar em qual sessão vc quer ir dentro da pag. Usando <ul> como lista ñ ordenada pois n tem uma ordem certa, <li> pra informar meus itens da lista, <a> para usar um link href="" para referenciar qual é o link, usou a # pq quando informamos o # ele n exerga como uma ref e volta para o inicio, que é o q quero q ele faça nesse primeiro <li>-->
+        <nav>
+            <ul>
+                <!-- aqui usa o id pois só tem um menu de navegação, usa o id pq ele é unico-->
+                <ul id="menuNavegacao">
+                    <li>
+                        <a id="btnInicio" href="#">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <strong>Ínicio</strong>
+                        </a>
+                    </li>
+
+                <li>
+                    <a href="#clientes">
+                       Nossos Clientes
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#pedidos">
+                        Pedidos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#fale conosco">
+                        Fale conosco
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+<!-- <main> é uma tag semantica pra definir o conteudo principal, ou seja tudo que n faz parte do conteudo do <header> e do <footer> é tudo que é conteudo-->
+    <main>
+<!--Sessão de Inicial-->
+        <section>
+            <h1>Nova coleção 2023</h1>
+            <h2 class="subtitulo">Ganhe <b>10%</b>off na 1ª compra</h2>
+            <!-- vai ser lista ordenada pois são imagens, e estão numa ordem-->
+            <ol class="listaImagens">
+                <li>
+                    <!-- usa a tag <figure> pois ela é semantica, pois para acessibilidade-->
+                    <figure> 
+                        <img src="./Img/img1.jpeg" alt="mulher negra careca de top branco sorrindo">
+                    </figure>                 
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="./Img/img2.jpeg" alt="cantora Iza de roupa blusa de manga cumprida laranja e lenço na cabeça laranja sorrindo">
+                    </figure>
+                </li>
+
+                <li> 
+                    <figure>
+                        <img src="./Img/img3.jpeg" alt="mulher negra cabelo cacheado solto roupa marrom e dourada séria">
+                    </figure>
+
+                </li>
+
+                <li>
+                    <figure>
+                        <img src="./Img/img4.jpeg" alt="mulher negra cabelo cacheado solto com vestido colorido e séria">
+                    </figure>
+
+                </li>
+            </ol>
+
+            <a href="https://www.cea.com.br" target="_blank">
+                <p class="text-center">Clique aqui para conferir</p>
+            </a>
+
+        </section>
+
+<!--Sessão de Clientes-->
+        <section id="clientes">
+            <h3>Nossos clientes</h3>
+            <div id="artigosClientes">
+                <article>
+                    <h4>Maria Pereira</h4>
+                    <h5>Avaliado em: 06/10/2023</h5>
+                    <figure>
+                        <img class="imgClientes" src="./Img/imgX.png" alt="imagem">
+                    </figure>                
+                    <p> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br>Quo repellendus enim quis, <br> repudiandae reiciendis similique sunt qui.</p>
+                </article>
+
+                <article>
+                    <h4>Maria Pereira</h4>
+                    <h5>Avaliado em: 06/10/2023</h5>
+                    <figure>
+                        <img class="imgClientes" src="./Img/imgX.png" alt="imagem">
+                    </figure>                
+                    <p> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br>Quo repellendus enim quis, <br> repudiandae reiciendis similique sunt qui.</p>
+                </article>
+    
+                <article>
+                    <h4>Maria Pereira</h4>
+                    <h5>Avaliado em: 06/10/2023</h5>
+                    <figure>
+                        <img class="imgClientes" src="./Img/imgX.png" alt="imagem">
+                    </figure>                
+                    <p> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br>Quo repellendus enim quis, <br> repudiandae reiciendis similique sunt qui.</p>
+                </article>
+            </div>
+
+        </section>
+
+<!--Sessão de pedidos-->
+        <section id="pedidos">
+            <h3>Meus Pedidos</h3> 
+            <table>
+                <thead>
+                   <tr>
+                    <td>ID</td>
+                    <td>Prdutos</td>
+                    <td>Quantidade</td>
+                    <td>Valor(RS)</td>
+                    <td>Data da Compra</td>
+                   </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Blusa</td>
+                        <td>1</td>
+                        <td>20,00</td>
+                        <td>01/01/9999</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Vestido</td>
+                        <td>1</td>
+                        <td>20,00</td>
+                        <td>01/01/9999</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Sapato</td>
+                        <td>1</td>
+                        <td>20,00</td>
+                        <td>01/01/9999</td>
+                    </tr>
+                </tbody>
+            </table>
+          
+        </section>
+        
+<!--Sessão de Fale Conosco-->
+        <section id="faleConosco"> 
+            <h3>
+                Fale conosco
+            </h3>
+            
+            <form>
+                <label>Nome:</label> <br/>
+                <input type="text" id="nome" placeholder="Digite o seu nome"/> <br>
+                
+
+                <label>Email:</label> <br/>
+                <input type="email" id="emailPessoal" placeholder="Digite o seu email"/><br>
+
+                <label>Mensagem: </label><br/>
+                <textarea id="mensagem" placeholder="Digite aqui sua mensagem"> </textarea> <br>
+                <br>
+           
+
+                <div id="btn">
+                    <button id="botao" type="submit">Enviar</button>
+                </div>
+            </form>
+
+
+        </section>
+
+    </main>
+</body>
+</html>

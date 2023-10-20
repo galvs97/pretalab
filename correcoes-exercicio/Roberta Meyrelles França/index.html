@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Loja Dandara</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Fontes -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap">
+</head>
+
+<body>
+  <header>
+    <div>
+      <p>
+        <strong>ROBERTA MEYRELLES</strong> <br />
+        <small>Último login em: 09/10/2023 às 20:07</small>
+      </p>
+    </div>
+
+    <nav>
+      <ul id="menuNavegacao">
+        <li>
+          <a id="btnInicio" href="#">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <strong>Início</strong>
+          </a>
+        </li>
+        <li>
+          <a href="#clientes">
+            Nossos clientes
+          </a>
+        </li>
+        <li>
+          <a href="#pedidos">
+            Pedidos
+          </a>
+        </li>
+        <li>
+          <a href="#faleConosco">
+            Fale Conosco
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main> <!-- tag semântica para definir conteúdo principal -->
+    <section>
+      <h1>Nova coleção 2023</h1>
+      <h2 class="subtitulo">Ganhe <strong>10%</strong> off na 1ª compra</h2>
+
+
+      <ol class="listaImagens">
+        <li>
+          <figure> <!-- tag semântica para criar caixa de imagem-->
+            <img src="./img/1.jpg"
+              alt="Uma mulher negra de pele retinta e careca, vestindo um top e calça branca, sorri de perfil.">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./img/2.jpg" alt="">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./img/3.jpg" alt="">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="img/4.jpg" alt="">
+          </figure>
+        </li>
+      </ol>
+
+      <a href="https://www.cea.com.br" target="_blank">
+        <p class="text-center">Clique aqui para conferir</p>
+      </a>
+    </section>
+
+
+    <section id="clientes">
+      <h3> Nossos Clientes </h3>
+
+      <div id="artigosClientes">
+        <article>
+          <h4>Maria Pereira</h4>
+          <h5>Avaliado em: 06/10/2023</h5>
+
+          <figure>
+            <img class="imgClientes" src="img/mulher1.jpg" alt="">
+          </figure>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur et sapien vel lobortis.
+            Curabitur placerat facilisis ligula eu suscipit. Nam euismod diam ac metus imperdiet vulputate. Quisque
+            luctus
+            ornare vehicula. Duis quis erat vel magna pulvinar tempor in non velit. Phasellus eu tortor sed est varius
+            semper. Donec ullamcorper, velit nec volutpat lacinia, sapien erat vulputate mauris, ut sollicitudin ligula
+            enim vitae purus.
+          </p>
+        </article>
+        <article>
+          <h4>Maria Pereira</h4>
+          <h5>Avaliado em: 06/10/2023</h5>
+
+          <figure>
+            <img class="imgClientes" src="img/mulher3.jpg" alt="">
+          </figure>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur et sapien vel lobortis.
+            Curabitur placerat facilisis ligula eu suscipit. Nam euismod diam ac metus imperdiet vulputate. Quisque
+            luctus
+            ornare vehicula. Duis quis erat vel magna pulvinar tempor in non velit. Phasellus eu tortor sed est varius
+            semper. Donec ullamcorper, velit nec volutpat lacinia, sapien erat vulputate mauris, ut sollicitudin ligula
+            enim vitae purus.
+          </p>
+        </article>
+        <article>
+          <h4>Maria Pereira</h4>
+          <h5>Avaliado em: 06/10/2023</h5>
+
+          <figure>
+            <img class="imgClientes" src="img/mulher2.jpg" alt="">
+          </figure>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur et sapien vel lobortis.
+            Curabitur placerat facilisis ligula eu suscipit. Nam euismod diam ac metus imperdiet vulputate. Quisque
+            luctus
+            ornare vehicula. Duis quis erat vel magna pulvinar tempor in non velit. Phasellus eu tortor sed est varius
+            semper. Donec ullamcorper, velit nec volutpat lacinia, sapien erat vulputate mauris, ut sollicitudin ligula
+            enim vitae purus.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pedidos">
+      <h3> Meus pedidos </h3>
+      <table>
+        <!--- Cabeçalho da tabela -->
+        <thead>
+          <!-- Cria linha-->
+          <tr>
+            <!-- Define um cabeçalho de célula-->
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Valor (R$)</th>
+            <th>Quantidade</th>
+            <th>Data da compra</th>
+          </tr>
+        </thead>
+        <tbody> <!-- O corpo da tabela -->
+          <tr>
+            <td>1</td>
+            <td>Blusa</td>
+            <td>20.00</td>
+            <td>1</td>
+            <td>01/01/9999</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Vestido</td>
+            <td>50.00</td>
+            <td>1</td>
+            <td>01/01/9999</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sapato preto</td>
+            <td>100.00</td>
+            <td>1</td>
+            <td>01/01/9999</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Anel</td>
+            <td>10.00</td>
+            <td>1</td>
+            <td>01/01/9999</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="faleConosco">
+      <h3>Fale conosco</h3>
+      <form>
+        <label>Nome:</label><br />
+        <input type="text" id="nome" placeholder="Digite o seu nome:" />
+        <label>E-mail:</label> <br />
+        <input type="email" id="emailPessoal" placeholder="Digite o seu e-mail:" />
+        <label>Mensagem:</label><br />
+        <textarea id="mensagem" placeholder="Digite aqui sua mensagem:"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Copyright | 2023 | Todos os direitos autorais reservados</p>
+  </footer>
+</body>
+
+</html>

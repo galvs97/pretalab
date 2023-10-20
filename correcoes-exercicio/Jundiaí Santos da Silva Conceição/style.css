@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: #724796;
+  }
+  
+  .header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+  }
+  
+  .lista-menu li > a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: inherit;
+  }
+  .principal {
+    height: 100vh;
+    display: flex;
+    background-color: #eaeaea;
+  }
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  
+  .subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nome-completo {
+    font-size: 36px;
+    color: #ff4dbc;
+    font-weight: 700;
+    height: 45px;
+  }

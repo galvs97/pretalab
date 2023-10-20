@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Noticia+Text&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap">
+    <title>Loja Mahins </title>
+</head>
+
+<body>
+    <header>
+        <div id="textMenuNav">
+            <p>
+                <strong>LOJA MAHINS</strong> <br />
+                <strong> Por Cailane Gois </strong> <br />
+                <small>Último login dia 15 de outubro de 2023</small>
+            </p>
+        </div>
+
+        <nav>
+            <ul id="menuNav">
+                <li>
+                    <a href="#" id="btnInicio"> <i class="fa fa-home" aria-hidden="true"></i> Início </a>
+                </li>
+                <li><a href="#clientes">Nossos clientes</a></li>
+                <li><a href="#pedidos">Pedidos</a></li>
+                <li><a href="#faleconosco">Fale conosco</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main> <!--tag para conteúdo principal abaixo do cabeçalho-->
+
+        <section>
+            <h1>NOVA COLEÇÃO 2023</h1>
+            <h2 class="subtitulo">Ganhe <b>10%</b> off na 1º compra</h2>
+            <ol class="listaImg">
+                <li>
+                    <figure>
+                        <img src="./img/1.jpg" alt="descrição">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/2.jpg" alt="descrição">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/3.jpg" alt="descrição">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/4.jpg" alt="descrição">
+                    </figure>
+                </li>
+            </ol>
+            <!-- Centralizar o link com aplicação de Paragrafo -->
+            <a href="" target="_blank"> Clique aqui para conferir</a>
+
+        </section>
+
+        <section id="clientes">
+            <h3>Nossos Clientes</h3>
+
+            <div id="artClientes">
+                <article>
+                    <h4>Maria Rita</h4>
+                    <h5>Avaliado em: 06/10/23</h5>
+                    <figure>
+                        <img src="img/img1.jpg">
+                    </figure>
+                    <p>
+                        Eu sou cliente fiel, depois que descobri a loja nunca mais passei por apuros nas compras de
+                        roupinhas online! Excelência e qualidade são palavras-chave.
+                    </p>
+
+                </article>
+
+                <article>
+                    <h4>Renata Ferreira</h4>
+                    <h5>Avaliado em: 06/10/23</h5>
+
+                    <figure>
+                        <img src="img/img2.jpg">
+                    </figure>
+
+                    <p>
+                        A entrega é super rápida e a roupa veio do jeito que imaginei! Minha loja favorita.
+                    </p>
+                </article>
+
+                <article>
+                    <h4>Ana Claúdia</h4>
+                    <h5>Avaliado em: 06/10/23</h5>
+                    <figure>
+                        <img src="img/img3.jpg">
+                    </figure>
+
+                    <p>
+                        Um ótimo atendimento e as roupas são de material excelente! Amo essa loja!
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="secPedidos">
+            <h3>Meus pedidos</h3>
+            <article id="artCompras">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Valor (R$)</th>
+                            <th>Data da compra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Blusa</td>
+                            <td>20,00</td>
+                            <td>1</td>
+                            <td>03/10/2023</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Vestido</td>
+                            <td>50,00</td>
+                            <td>1</td>
+                            <td>03/10/2023</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sapato</td>
+                            <td>100,00</td>
+                            <td>1</td>
+                            <td>03/10/2023</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Anel</td>
+                            <td>100,00</td>
+                            <td>1</td>
+                            <td>03/10/2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section>
+            <h2>Fale conosco</h2>
+            <form id="artForm">
+                <label> Informe seu nome:</label><br/>
+                <input type="text" placeholder="Digite seu nome"> <br/>
+                <label> Informe seu email</label> <br/>
+                <input type="email" placeholder="Informe seu email favorito">
+                <br />
+                <label> Deixe aqui sua mensagem</label><br />
+                <textarea placeholder="Digite a mensagem aqui">
+                </textarea>
+                <br />
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> @Copyright 2023 | Todos os direitos reservados a Cailane Gois </p>
+
+    </footer>
+
+</body>
+
+</html>

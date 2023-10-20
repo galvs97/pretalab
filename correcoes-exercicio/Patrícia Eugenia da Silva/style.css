@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-color: #d7e2ff;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: #7c71ff;
+    padding:  10px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#menuNavegacao {
+    display: flex;
+    padding: 10px 20px;
+    list-style: none;
+    gap: 20px;
+    align-items:center;
+}
+
+#menuNavegacao li a{
+    padding: 8px 14px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #d9d9d9;
+    color: #200065;
+    font-size: 0.8em;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#btnInicio{
+    background-color: #200065!important;
+    color: #fff!important;
+}
+
+section h1, h2, h3, h4{
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    color: #200065;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.subtitulo{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+}
+
+.listaImagens{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#imagens {
+    padding: 20px;
+}
+
+#clientes {
+    background-color: #AEBFEB;
+    padding: 20px;
+}
+
+#artigosClientes{
+    display: flex;
+    gap:50px;
+}
+
+#artigosClientes article{
+    background-color: #d4e0ff;
+    padding: 20px;
+    text-align: left;
+}
+
+#artigosClientes article h4{
+    color: #1e1e1e;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.imgClientes{
+    width: 90px;
+    margin: 10px 0;
+    border: 2px solid #1e1e1e;
+}
+
+section#pedidos {
+    padding: 20px;
+}

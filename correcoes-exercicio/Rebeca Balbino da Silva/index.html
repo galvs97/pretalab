@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Loja Dandara</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&display=swap"> 
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>
+               <strong>REBECA BALBINO</strong> <br/>
+               <small>Último login em 07/10/2023 às 11h10</small> 
+            </p>
+        </div>
+
+        <nav>
+            <ul id="menunavegacao">
+                <li>
+                    <a id="btnInicio" href="#">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <strong>Ínicio</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#clientes">
+                        Nossos clientes
+                    </a>
+                </li>
+                <li>
+                    <a href="#pedidos">
+                        Pedidos
+                    </a>
+                </li>
+                <li>
+                    <a href="faleconosco">
+                        Face conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!--  tag semantica para definir conteúdo principal -->
+        <section>
+            <h1>Nova coleção 2023</h1>
+            <h2 class="subtitulo">Ganhe <strong>10%</strong> off na 1° compra</h2>
+
+            <ol class="listaImagens">
+                <li>
+                    <figure> <!-- tag semantica para criar caixa de imagem-->
+                        <img src="./img/1.jpg" alt="Mulher negra careca de top branco sorrindo">
+                    </figure>
+                </li>
+                <li>
+                    <figure> <!-- tag semantica para criar caixa de imagem-->
+                        <img src="./img/2.jpg" alt="Mulher negra com roupa laranja de braços abertos">
+                    </figure>
+                </li>
+                <li>
+                    <figure> <!-- tag semantica para criar caixa de imagem-->
+                        <img src="./img/3.jpg" alt="Mulher de cabelos longos e roupa em tom claro sentada fazendo pose">
+                    </figure>
+                </li>
+                <li>
+                    <figure> <!-- tag semantica para criar caixa de imagem-->
+                        <img src="./img/4.jpg" alt="mulher cabelo longo e crespo com roupa estampada fazendo pose de pé">
+                    </figure>
+                </li>
+            </ol>
+
+            <a href="https://wwww.cea.com.br" target="_blank">
+                <p style="text-align: center;"> Clique aqui para conferir</p>
+            </a>
+        </section>
+
+        <section id="clientes">
+            <h3><b>Nossos clientes</b></h3>
+
+            <div id="artigosClientes">
+                <article>
+                    <h4>Maria Pereira</h4>
+                    <h5><small><i>Avaliado em: 06/10/23</i></small></h5>
+    
+                    <figure>
+                        <img class="imgClientes" src="./img/Design sem nome.jpg" alt="Imagem">
+                    </figure>
+                    <p>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                    </p>
+                </article>
+    
+                <article>
+                    <h4>Maria Pereira</h4>
+                    <h5><small><i>Avaliado em: 06/10/23</i></small></h5>
+    
+                    <figure>
+                        <img class="imgClientes" src="./img/Design sem nome.jpg" alt="Imagem">
+                    </figure>
+                    <p>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                    </p>
+                </article>
+    
+                <article>
+                    <h4>Maria Pereira</h4>
+                    <h5><small><i>Avaliado em: 06/10/23</i></small></h5>
+    
+                    <figure>
+                        <img class="imgClientes" src="./img/Design sem nome.jpg" alt="Imagem">
+                    </figure>
+                    <p>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                        Lorem skdlsadlçsak dlçskd <br/>
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="pedidos">
+            <h3>Meus pedidos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor (R$)</th>
+                        <th>Data da compra</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Blusa</td>
+                        <td>1</td>
+                        <td>20,00</td>
+                        <td>01/01/9999</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Vestido</td>
+                        <td>1</td>
+                        <td>20,00</td>
+                        <td>01/01/9999</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sapato</td>
+                        <td>1</td>
+                        <td>20,00</td>
+                        <td>01/01/9999</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="faleConosco">
+            <h3>Fale Conosco</h3>
+            <form>
+                    <label>Nome:</label><br/>
+                    <input type="text" id="nome" placeholder="Nome:"/><br/>
+
+                    <label>Email:</label><br/>
+                    <input type="email" id="emailpessoal" placeholder="Email:"/><br/>
+
+                    <label>Mensagem</label><br/>
+                    <textarea id="mensagem" placeholder="Mensagem"></textarea><br/>
+
+                    <div class="BotaoEnviar">
+                        <button id="Enviar" type="submit"> Enviar</button>
+                    </div>
+            </form>
+        </section>
+    </main>
+
+    <section id="footer">
+        <footer>© Copyright | 2023 | Todos os direitos reservados</footer>
+    </section>
+    
+</body>
+
+</html>

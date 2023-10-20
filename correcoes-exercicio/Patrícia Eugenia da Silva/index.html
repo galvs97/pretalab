@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja Dandara</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>
+                <strong>PATRÍCIA DA SILVA</strong><br>
+                <small>Último login em 07/10/2023 11:10</small>
+            </p>
+        </div>
+
+        <nav>
+            <ul id="menuNavegacao">
+                <li><a href="#" id="btnInicio"><i class="fa fa-home"></i><strong>Início</strong></a>  </li>
+                <li><a href="#clientes"> Nossos clientes</a> </li>
+                <li><a href="#pedidos"> Pedidos </a>  </li>
+                <li><a href="#contato"> Fale conosco</a>  </li>
+            </ul>  
+        </nav>
+    </header>
+
+    <main>
+        <section id="imagens">
+            <h1>Nova coleção 2023</h1>
+            <h2>Ganhe <b>10%</b> off na 1a. compra</h2>
+     
+            <ol class="listaImagens">
+                <li>
+                    <figure>
+                        <img src="./img/1.jpg" alt="Mulher negra careca top branco">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="../Aula Prática/img/1.jpg" alt"Mulher negra careca top branco">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="../Aula Prática/img/3.jpg" alt"Mulher negra careca top branco">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="../Aula Prática/img/2.jpg" alt"Mulher negra careca top branco">
+                    </figure>
+                </li>
+            </ol>
+           
+            <a href="https://www.cea.com.br" target="_blank"><p class="text-center"> aqui para conferir</p></a>
+
+        </section>
+
+
+        <section id="clientes">
+
+            <h3>Nossos clientes</h3>
+
+            <div id="artigosClientes">
+                <article>
+                    <h4>Maria Aparecida</h4>
+                    <h5>Avaliado em 6/10/2023</h5>
+
+                    <figure>
+                        <img src="../Aula Prática/img/1.jpg" alt"Mulher negra careca top branco">
+                    </figure>
+                    <p>
+                        Vivamus eget volutpat erat. Morbi tellus lorem, consequat ac urna a, dapibus lobortis mi. Donec id velit felis.
+                    </p>
+
+                </article>
+
+            
+
+                <article>
+                    <h4>Maria Aparecida</h4>
+                    <h5>Avaliado em 6/10/2023</h5>
+
+                    <figure>
+                      <img src="../Aula Prática/img/1.jpg" alt"Mulher negra careca top branco">
+                    </figure>
+                    <p>
+                        Vivamus eget volutpat erat. 
+                        Morbi tellus lorem, consequat ac urna a, dapibus lobortis mi. Donec id velit felis.
+                    </p>
+        
+                </article>
+
+            
+                <article>
+                    <h4>Maria Aparecida</h4>
+                    <h5>Avaliado em 6/10/2023</h5>
+
+                    <figure>
+                        <img src="../Aula Prática/img/1.jpg" alt"Mulher negra careca top branco">
+                    </figure>
+                    <p>
+                        Vivamus eget volutpat erat. 
+                        Morbi tellus lorem, consequat ac urna a, dapibus lobortis mi. Donec id velit felis.
+                    </p>
+                </article>
+        </div>
+          
+
+        </section>
+
+        <section id="pedidos">
+            <h3> Meus pedidos</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th> ID </th>
+                        <th>Produto </th>
+                        <th> Valor </th>
+                        <th> Quantidade</th>
+                        <th> Data da compra</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td> Blusa</td>
+                        <td>20</td>
+                        <td> 1</td>
+                        <td> 01/01/2021</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td> Blusa</td>
+                        <td>20</td>
+                        <td> 1</td>
+                        <td> 01/01/2021</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td> Blusa</td>
+                        <td>20</td>
+                        <td> 1</td>
+                        <td> 01/01/2021</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td> Blusa</td>
+                        <td>20</td>
+                        <td> 1</td>
+                        <td> 01/01/2021</td>
+                    </tr>
+            </tbody>
+
+            </table>
+        </section>
+
+        <section id="faleConosco">
+            <h3> Fale conosco</h3>
+
+            <form>
+                <label>Nome:</label> <br>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <br> <br>
+                <label>Email:</label> <br>
+                <input type="text" id="Email" placeholder="Digite seu email">
+                <br> <br>
+                <label>Mensagem:</label> <br>
+                <textarea id="mensagem"  placeholder="Digite uma mensagem">Escreva uma mensagem</textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+   
+</body>
+</html>

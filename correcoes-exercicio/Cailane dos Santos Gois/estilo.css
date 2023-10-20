@@ -1,0 +1,185 @@
+* {
+margin:0;
+padding: 0;
+}
+
+body {
+    background-color: #e8e1ee ;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: rgb(117, 12, 174);
+    padding: 0 30px;
+    display:flex;
+    justify-content: space-between;
+    color:#fff;
+    height: 100px;
+    align-items: center;
+}
+
+
+#menuNav {
+ display: flex;
+ padding: 10px 20px;
+ list-style:none;
+ gap:20px; /*espaço entre os elementos sem aplicar margin-left*/
+ align-items: center;
+
+}
+
+#menuNav li a {
+text-decoration: none;
+background-color: #e6e4e4;
+padding: 8px 14px;
+border-radius:10px;
+color:#200065;
+font-size: 0.8em;
+transition: 0.3s;
+text-align: center;
+}
+
+#btnInicio {
+    background-color: #200065 !important;
+    color:#fff !important;
+}
+
+section {
+    padding: 20px 40px ;
+    height: 60vh;
+}
+
+section h1, h2, h3, h4 {
+    font-family: 'Abril Fatface', Serif;
+    text-align: center;
+    color: #200065;
+    margin: 20px;
+}
+
+.subtitulo {
+    font-family: 'Inter';
+    font-size: 1.2em;
+
+}
+
+.listaImg {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    margin:20px 0;
+}
+
+#clientes {
+    background-color: #AEBFEB;
+    padding: 20px;
+}
+
+
+#artClientes {
+    margin:20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+#artClientes  article {
+    background-color:#e8e1ee ;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px; 
+    width: 400px;
+    gap:30px;
+}
+
+
+#artClientes article h4 {
+    color: #1e1e1e; 
+    text-align: center;
+    margin-bottom: 8px;;
+}
+
+.imgClientes {
+    width: 90px;
+    margin: 10px 0; 
+    border: 2px solid #1e1e1e;
+}
+
+
+/*formatação da tabela*/
+#secPedidos {
+    background-color:#D7E2FF;
+    
+}
+
+#artCompras {
+    margin:20px;
+    display: flex;
+    justify-content: center;   
+}
+
+table,td,th {
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+th {
+background-color: #7352b8;
+color:#fff;
+}
+
+table {
+    width: 600px;
+    height: 300px;
+}
+
+
+/*formatação do formulário*/
+
+
+
+#artForm {
+    margin: 20px;
+    text-align: center;
+}
+
+
+form label {
+    color: #200065;
+}
+
+
+form input, textarea {
+    border-radius: 5px;
+    width: 895px; 
+    height: 30px;
+    margin: 10px;
+}
+
+form textarea {
+    width: 895px; 
+    height: 152px;
+}
+form button {
+    background-color: #200065;
+    color:#fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+
+button:hover{
+    background-color: #7352b8;
+}
+
+/*formatação do rodapé*/
+footer {
+    height: 100px;
+    background-color: #200065;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}

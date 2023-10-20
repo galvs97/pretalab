@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D7E2FF; 
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #7C71FF;
+    padding: 10 30px;
+
+    display: flex; /* voltar a aula pra lembrar*/
+    justify-content: space-between; /* voltar a aula pra lembrar*/
+
+    color: #ffffff;
+}
+
+#menuNavegacao{
+    display: flex;
+    padding: 10px 20px;
+    list-style: none; /*tira a bolinha da frente do item*/
+    gap: 20px; /*da um espaçamento somente do primeiro ao ultimo item, diferente do heitgh e do margin aplica o espaço em todo o item */
+    align-items: center;
+}
+/*referenciando menu navegação do li, pois ñ é uma boa pratica encher de class. e aqui esta estilizando como se fosse uns botões da nav*/
+#menuNavegacao li a{
+    padding: 8px 14px; 
+    border-radius: 25px; 
+    text-align: center;
+
+    background-color: #d9d9d9; 
+    color: #200065; 
+    font-size: 0.8em;
+
+    transition: 0.3;
+
+    text-decoration: none;
+}
+
+#btnInicio{
+    background-color: #200065 !important;
+    color:#ffffff !important;
+}
+
+section{
+    padding: 20px 40px;
+}
+
+section h1, h2, h3, h4 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center; 
+    color: #200065; 
+}
+
+.subtitulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+}
+
+.listaImagens {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 20px 0;
+}
+
+.text-center {
+    display: flex; /* voltar a aula pra lembrar*/
+    justify-content: space-between;
+}
+
+#clientes {
+    background-color: #AEBFEB;
+    padding: 20px;
+}
+
+#artigosClientes {
+    display: flex;
+    gap: 30px;
+}
+
+#artigosClientes article {
+    background-color: #d4e0ff;
+    padding: 20px; 
+    text-align: left;
+}
+
+#artigosClientes article h4 {
+    color: #1e1e1e; 
+    text-align: left;
+    margin-bottom: 8px;;
+}
+
+.imgClientes {
+    width: 90px;
+    margin: 10px 0; 
+    border: 2px solid #1e1e1e;
+}
+
+
+#faleConosco {
+    background-color: #AEBFEB;
+    padding: 15px; 
+    text-align: center;
+}
+
+
+#nome{
+    padding: 4px 100px 4px; 
+    border-radius: 5px; 
+   
+}
+
+#emailPessoal{
+    padding: 4px 100px 4px;   
+    border-radius: 5px; 
+} 
+
+#mensagem{
+    padding: 4px 100px 4px; 
+    border-radius: 5px; 
+}
+
+
+#botao{
+    padding: 4px 35px ; 
+    border-radius: 7px; 
+   
+    background-color: #2c2b2b; 
+    color: #c2c2c2;
+
+    font-size: 0.8em;
+    transition: 0.3;     
+}
+
+#btn{
+    
+    text-align: center;
+}
+
+/* Desculpe entragar só isso, semana de prova na faculdade e prazos corridos no job, esses dias to só existindo. Vou me dedicar e melhorar esse site mais pra frente */
