@@ -1,18 +1,22 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 18px; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     background-color: #EDEAEA;
 }
 
 header {
-    height: 100px;
+    height: 100px; 
     padding: 0 20px;
-    
+
     background-color: #BE89CB;
 
     display: flex;
@@ -21,41 +25,47 @@ header {
 }
 
 #menuNavegacao {
-    display: flex; 
+    display: flex;
     gap: 40px; 
-}
 
-ul, ol {
     list-style: none;
 }
 
-#menuNavegacao li a {
-    color: #fff;
-    font-weight: 700;
+.linkMenu {
+    color: #ffffff; 
     text-decoration: none;
+    font-weight: 700;
+    padding: 0 5px;
 
     transition: 0.3s;
 }
 
-#menuNavegacao li a:hover {
-    border-bottom: 2px solid #fff;
+.linkMenu:hover {
+    border-bottom: 2px solid #ffffff;
 }
 
-main {
-    display: flex; 
+main {    
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 section {
-    padding: 45px 30px; 
+    padding: 45px 30px; /*Margem para cima*/
+    width: 960px; /*largura maxima*/
     margin: auto;
-    width: 960px;
 }
 
-.sub-section {
-    background-color: #dbd9d9;
-    width: 100%;
+.foto-perfil {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #BE89CB;
+    padding: 5px;
+}
+
+.foto-perfil:hover {
+    opacity: 0.6;
 }
 
 h1 {
@@ -74,19 +84,54 @@ h2, h4 {
     color: #837f85;
 }
 
+p {
+    font-family: 'ABeeZee', sans-serif; 
+    padding: 18px 0;
+}
+
+.sub-section {
+    background-color: #dbd9d9;
+    width: 100%;
+}
+
 section ul {
+    list-style: none;
     max-width: 760px;
     margin: auto;
 }
-
-.foto-perfil {
-    width: 150px;
-    border: 5px solid #BE89CB;
-
-    border-radius: 50%;
-    padding: 5px;
+section ul li {
+    margin-bottom: 16px;
 }
 
-.foto-perfil:hover {
-    opacity: 0.6;
+h3, h4 {
+    margin-bottom: 12px;
+}
+
+#portfolio h4 {
+    color: #661E4B;
+}
+
+footer {
+    background-color: #724796;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+  
+footer li {
+    color: #FFF;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+footer i {
+   font-size: 1.75em;
+   margin-right: 10px;
+   color: #FFF;
+}
+
+footer a {
+    color: #FFF;
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Segunda página</title>
+    <meta charset="UTF-8">
+    <title>Exemplo CSS interno</title>
+
+    <!-- Aplicando estilo interno-->
+    <style>         
+    <style>
+        /* Precedencia */
+        h1 {
+            color: blue;
+            color: red;
+        }
+
+        header {
+            background-color: yellow;
+        #paragrafos {
+            border: 5px solid greenyellow;
+        }
+
+        #paragrafo {
+            border: 5px solid greenyellow; /* espessura tipo cor */
+        p {
+            color: purple;
+        }
+
+        .bgRoxoEscuro {
+            background-color: #420042;
+            color: white;
+        .text-center {
+            text-align: center;
+        }
+
+        .bgRoxoClaro {
+            background-color: #a000a0;
+        .text-right {
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Este é um título principal</h1>
+        <a href="index.html" target="_blank">Ir para meu css principal</a> <!-- Aplicando estilo inline-->
+    <header> 
+        <!-- Precedencia -->
+            <h1 style="color: #474747;">Este é um título principal</h1>
+        <!-- Precedencia -->
+        <a href="index.html" target="_blank">Ir para meu css externo</a>
+    </header>
+
+    <h1 style="color: red;">qualquer coisa</h1> 
+
+    <section id="paragrafo">
+    <section id="paragrafos">
+        <article>
+            <h2>Parágrafos com CSS Interno</h2>
+            <p class="bgRoxoEscuro">
+            <h3>Parágrafos com CSS interno</h3>
+            <p class="text-center">
+                Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! 
+                <span class="bgRoxoClaro">o quibeee!
+                rema, rema, ordinária!.</span> 
+                Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+                rema, rema, ordinária!.
+            </p>
+            <p class="bgRoxoClaro">
+            <p class="text-center">
+                Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+                rema, rema, ordinária!.
+            </p>
+            <p class="bgRoxoEscuro">
+            <p class="text-right">
+                <small>
+                    Tu du du pááá! Eu gostchu Muitchu, heinn! danadinha! Mainhaa!
+                    Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+@@ -60,7 +57,8 @@ <h2>Parágrafos com CSS Interno</h2>
+            </p>
+        </article>
+        <article>
+            <h2>Parágrafos com CSS inline</h2>
+            <h3>Parágrafos com CSS interno</h3>
+
+            <p>
+                <span style="background-color: lightpink;">Tu du du pááá! Eu gostchu Muitchu, heinn!</span> danadinha! Mainhaa!
+                Agora use meu lorem ipsum ordinária!!! Olha o quibeee!
+@@ -73,7 +71,7 @@ <h2>Parágrafos com CSS inline</h2>
+            </p>
+        </article>
+
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+body { 
+    background-color: gray !important; /* cor de fundo | !important: para definir prioridade na classe .nomeClasse*/
+    color: #002b0c; /* cor do texto */
+    border: 5px solid rgba(62, 0, 62, .3);
+
+body {
+    background-color: #bfa7ff;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color: #800080;
+}
+
+section h2 {
+    background-color: #d3d3d3;
+}
+
+header {
+    width: 80%; /*exemplo de medida absoluta */
+    padding: 20px 10px;
+    background-color: #d3d3d3;
+    display: flex; /*alinha os elementos contidos no componente de maneira linear */
+    justify-content: space-between; /*distribui os elementos contidos no componente no eixo horizontal */
+    align-items: center; /*distribui os elementos contidos no componente no eixo vertical */
+}
+
+header a {
+    font-size: 1.5em; /*exemplo de medida absoluta */
+    padding: 10px; 
+
+    height: 20px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    background-color: #8a2fee;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #646464;
+}
+
+section {
+    padding: 15px;
+
+    background-image: linear-gradient(to bottom, #bb7ebb 0%, #bb7ebb 100%), linear-gradient(to bottom, #a150a1 0%, #a150a1 100%);
+    background-clip: content-box, padding-box;
+
+    background-color: #ffffff;
+}
+
+article {
+    /* margin: 10px;  */
+
+    background-color: plum;
+}
+
+
+img {
+    border: 5px solid rgb(170, 255, 0);
+    border-radius: 10px;
+}
+
+.imgViola {
+    width: 250px;
+    height: 100%;
+}
+
+section img {
+    background-color: #420042;
+    display: inline;
+    float: right;
+}
+
+.caixa {
+    clear: both;
+    border: 4px solid rgb(84, 126, 0); 
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+.caixa-com-bordas {
+    border-top: 4px dotted #420042; /* #420042 Borda superior com 4px de espessura, estilo pontilhado e cor vermelha */
+    border-right: 3px double #800080; /* #800080 Borda direita com 3px de espessura, estilo duplo e cor azul */
+    border-bottom: 6px dashed #a000a0; /* #a000a0 Borda inferior com 6px de espessura, estilo tracejado e cor verde */
+    border-left: 5px groove #ee00ee; /* #ee00ee Borda esquerda com 5px de espessura, estilo entalhado e cor roxa */
+}
+
+.bgPink {
+    background-color: pink;
+.caixa-com-bordas-simples {
+    border: 4px solid yellowgreen; 
+    border-radius: 10px;
+}
